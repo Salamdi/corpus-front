@@ -1,0 +1,15 @@
+<ul class="root-list">
+  <li *ngFor="let root of roots" class="root-list-item" >
+      <mat-card>
+          <mat-card-header>
+            <mat-card-title>{{root.token}}</mat-card-title>
+            <mat-card-subtitle>{{root.location}}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p class="root-list-item-content">
+              {{root.head}} <strong class="token">{{root.token}}</strong> {{root.tail}}
+            </p>
+          </mat-card-content>
+      </mat-card>
+  </li>
+</ul>

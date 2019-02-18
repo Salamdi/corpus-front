@@ -1,0 +1,7 @@
+<ul class="root-list">
+  <li *ngFor="let root of roots" class="root-list-item" [routerLink]="['/root', root.buckwalter]" >
+      <mat-card>
+          {{root.arabic}}
+      </mat-card>
+  </li>
+</ul>

@@ -1,0 +1,18 @@
+.char-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    direction: rtl;
+    align-items: center;
+
+    .char-item {
+        margin: 8px;
+        width: 80px;
+        text-align: center;
+        cursor: pointer;
+    }
+}

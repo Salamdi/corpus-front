@@ -1,0 +1,22 @@
+.root-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  direction: rtl;
+
+  .root-list-item {
+      margin: 8px;
+  }
+
+  .root-list-item-content {
+    font-size: 1.5em;
+  }
+
+  .token {
+    color: orangered;
+  }
+}

@@ -1,0 +1,7 @@
+<ul class="char-list">
+    <li *ngFor="let char of chars$ | async" class="char-item" [routerLink]="['/roots', char.buckwalter]" >
+        <mat-card>
+            {{char.arabic}}
+        </mat-card>
+    </li>
+</ul>
